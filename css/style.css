@@ -1,0 +1,103 @@
+body{
+    background:  #FFFFFF;
+ }
+ #container1 .logo{
+     position: absolute;
+     width: 112px;
+     height: 66px;
+     left: 121px;
+     top: 21px;
+ }
+ #container1 .logos{
+ 
+     position: absolute;
+     left: 121px;
+     top: 184px;
+ }
+ #container1 .logos *{
+     width: 22px;
+     height: 21px;
+     padding-right: 170px;
+ }
+ #container1 .text{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 115%;
+ }
+ #container1 .text .p1{
+     position: absolute;
+     left: 151px;
+     top: 162px;
+ }
+ #container1 .text .p2{
+     position: absolute;
+     left: 348px;
+     top: 162px;
+ }
+ #container1 .text .p3{
+     position: absolute;
+     left: 545px;
+     top: 162px;
+ }
+ #container1 h1{
+     position: absolute;
+     width: 628px;
+     height: 190px;
+     left: 122px;
+     top: 188px;
+     font-family: 'Roboto Slab';
+     font-weight: 700;
+     font-size: 80px;
+     line-height: 101.38%;
+ }
+ #container1 p{
+     position: absolute;
+     width: 414px;
+     height: 62px;
+     left: 121px;
+     top: 427px;
+     font-family: 'Roboto';
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 150%;
+ }
+ #container1 .i1{
+     position: absolute;
+     width: 304px;
+     height: 356px;
+     left: 890px;
+     top: 223px;
+ }
+ #container1 .p-blue{
+     position: absolute;
+     width: 483.63px;
+     height: 220px;
+     left: 409.39px;
+     top: 666.62px;
+     background: #1E4681;
+     border-radius: 5px;
+     color: #FFFFFF;
+     line-height: 130%;
+ }
+ #container1 .p-blue p{
+     position: absolute;
+     width: 430.59px;
+     height: 113px;
+     left: 26px;
+     top: -3px;
+     font-family: 'Roboto Slab';
+     font-size: 25px;
+ }
+ #container1 .p-blue h5{
+     position: absolute;
+     width: 280.5px;
+     height: 45.64px;
+     left: 186px;
+     top: 146px;
+     font-family: 'Roboto';
+     font-weight: 400;
+     font-size: 20px;
+     text-align: right;
+ }
