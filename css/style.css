@@ -1,0 +1,223 @@
+ body{
+    background:  #FFFFFF;
+ }
+ #container1{
+    margin-left: 7.5rem;
+    margin-top: 1.3rem;
+ }
+ #container1 .logo{
+     width: 7rem;
+     height: 4.1rem;
+ }
+ #container1 .logos{
+     margin-top: 6.1rem;
+ }
+
+ #container1 .logos *{
+     width: 1.3rem;
+     height: 1.3rem;
+     padding-right: 10.625rem;
+ }
+ #container1 .text{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 115%;
+ }
+ 
+ #container1 .text .p1{
+     position: absolute;
+     left: 9.4rem;
+     top: 10.55rem;
+ }
+ #container1 .text .p2{
+    position: absolute;
+    left: 22rem;
+    top: 10.55rem;
+ }
+ #container1 .text .p3{
+    position: absolute;
+    left: 34rem;
+    top: 10.55rem;
+ }
+ #container1 h1{
+     width: 39.2rem;
+     height: 11.8rem;
+     font-family: 'Roboto Slab';
+     font-weight: 700;
+     font-size: 5rem;;
+ }
+  #container1 p{
+     width: 25.8rem;
+     height: 3.8rem;
+     font-family: 'Roboto';
+     font-weight: 400;
+     font-size: 20px;
+     margin-bottom: -19rem;
+ }
+ #container1 .i1{
+     width: 19rem;
+     height: 22.25rem;
+     margin-left: 45rem;
+ }
+ #container1 .ellipse1{
+    width: 20rem;
+    height: 2.5rem;
+    margin-left: 46rem;
+    margin-top: -0.5rem;
+ }
+
+ #container1 .p-blue{
+     width: 30.2rem;
+     height: 13.7rem;
+     margin-left: 10rem;
+     margin-top: 7rem;
+     background: #1E4681;
+     border-radius: 5px;
+     color: #FFFFFF;
+ }
+ #container1 .p-blue p{
+     width: 26.9rem;
+     height: 7rem;
+     padding: 1.5rem 1.6rem;
+     margin-left: 0.3rem;
+     margin-top: -0.1rem;
+     font-family: 'Roboto Slab';
+     font-size: 25px;
+     
+ }
+ #container1 .p-blue h5{
+     width:17.5rem ;
+     height: 2.8rem;
+     margin-left: 11rem;
+     margin-top: 20rem;
+     font-family: 'Roboto';
+     font-weight: 400;
+     font-size: 1.25rem;
+     text-align: right;
+ }
+ 
+ #container2{
+    margin-left: 7.5rem;
+    margin-top: 1.3rem;
+    font-style: normal;
+    color: #000000;
+ }
+ #container2 h1{
+    width: 22.8rem;
+    height: 5.8rem;
+    margin-top: 14rem;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 3.4rem;
+ }
+ #container2 .i2{
+    width: 19.6rem;
+    height: 19.6rem;
+    margin-left: 50rem;
+    margin-top: -70rem;
+ }
+ #container2 .i3{
+    width: 14.5rem;
+    height: 12.6rem;
+    margin-top: 7rem;
+ }
+  #container2 p{
+    width: 41.3rem;
+    height: 23.3rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: -15rem;
+ } 
+ 
+ #container2 .features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 9.3rem;
+    margin-left: 25rem;
+    margin-top: -10rem;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+ }
+ #container2 .features .feature1{
+    width: 5.7rem;
+    display: block;
+    margin-right: 10rem;
+}
+#container2 .features .feature2{
+    width: 5.7rem;
+    display: block;
+    margin-right: 10rem;
+}
+#container2 .features .feature3{
+    width: 5.7rem;
+    display: block;
+    margin-right: 10rem;
+}
+#container2 .features p{
+    width: 14rem;
+    height: 2.4rem;
+}
+#container3{
+    margin-left: 7.5rem;
+    margin-top: 20rem;
+    font-style: normal;
+    color: #000000;
+ }
+#container3 h1{
+    font-family: Roboto Slab;
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+#container3 .box h1{
+    font-family: 'Roboto'; 
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #1E4681;
+    margin-bottom: 0px;
+}
+#container3 .box p{
+    font-family: 'Roboto'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+#container3 .box{
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 8rem;
+}
+#container3 .box1{
+    width: 23%;
+    display: block;
+}
+#container3 .box2{
+    width: 27%;
+    display: block;
+}
+#container3 .box3{
+    width: 30%;
+    display: block;
+}
+#container3 .title{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 3.4rem;
+}
+#container3 .unordered-list{
+    font-size: 1.5rem;
+    margin-top: -3rem;
+    width: 38rem;
+    height: 21rem;
+}
