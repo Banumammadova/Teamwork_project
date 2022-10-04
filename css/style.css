@@ -12,7 +12,6 @@
  #container1 .logos{
      margin-top: 6.1rem;
  }
-
  #container1 .logos *{
      width: 1.3rem;
      height: 1.3rem;
@@ -25,7 +24,6 @@
      font-size: 20px;
      line-height: 115%;
  }
- 
  #container1 .text .p1{
      position: absolute;
      left: 9.4rem;
@@ -67,7 +65,6 @@
     margin-left: 46rem;
     margin-top: -0.5rem;
  }
-
  #container1 .p-blue{
      width: 30.2rem;
      height: 13.7rem;
@@ -85,7 +82,6 @@
      margin-top: -0.1rem;
      font-family: 'Roboto Slab';
      font-size: 25px;
-     
  }
  #container1 .p-blue h5{
      width:17.5rem ;
@@ -97,7 +93,6 @@
      font-size: 1.25rem;
      text-align: right;
  }
- 
  #container2{
     margin-left: 7.5rem;
     margin-top: 1.3rem;
@@ -131,7 +126,6 @@
     font-size: 1.5rem;
     margin-bottom: -15rem;
  } 
- 
  #container2 .features{
     display: flex;
     flex-direction: row;
@@ -139,8 +133,7 @@
     align-items: flex-end;
     width: 9.3rem;
     margin-left: 25rem;
-    margin-top: -10rem;
-    
+    margin-top: -10rem; 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
