@@ -1,5 +1,6 @@
  body{
     background:  #FFFFFF;
+    width: 100%;
  }
  #container1{
     margin-left: 7.5rem;
@@ -96,65 +97,166 @@
  #container2{
     margin-left: 7.5rem;
     margin-top: 1.3rem;
-    font-style: normal;
     color: #000000;
  }
  #container2 h1{
+    margin-bottom:0rem;
     width: 22.8rem;
     height: 5.8rem;
-    margin-top: 14rem;
     font-family: 'Roboto Slab';
     font-weight: 700;
     font-size: 3.4rem;
  }
+ #container2 .p-i{
+    display: flex;
+    flex-direction: row;
+ }
  #container2 .i2{
-    width: 19.6rem;
-    height: 19.6rem;
-    margin-left: 50rem;
-    margin-top: -70rem;
+    width: 16.5rem;
+    height: 16.5rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
  }
- #container2 .i3{
-    width: 14.5rem;
-    height: 12.6rem;
-    margin-top: 7rem;
+ #container2 .paragraph{
+    display: block;
  }
-  #container2 p{
+ #container2 p{
     width: 41.3rem;
     height: 23.3rem;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: -15rem;
- } 
+ }
+ #container2 .f-i{
+    display: flex;
+    flex-direction: row;
+ }
  #container2 .features{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     width: 9.3rem;
     margin-left: 25rem;
     margin-top: -10rem; 
+    margin-left: 8.25rem;
+    margin-top: -2.5rem;
     font-family: 'Roboto';
+ }
+ #container2 .features .feature1{
+    width: 8rem;
+    display: block;
+    margin-right: 8rem;
+}
+#container2 .features .feature2{
+    width: 8rem;
+    display: block;
+    margin-right: 8rem;
+}
+#container2 .features .feature3{
+    width: 8rem;
+    display: block;
+    margin-right: 8rem;
+}
+#container2 .features p{
+    width: 9.5rem;
+    height: 2.4rem;
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-left: 0rem;
+}
+#container2 .features h5{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#container2 .i3{
+    width: 14.5rem;
+    height: 12.6rem;
+    margin-top: 7rem;
+ }
+ #container3{
+    margin-left: 7.5rem;
+    margin-top: 10rem;
+    font-style: normal;
+    color: #000000;
+ }
+#container3 h1{
+    font-family: Roboto Slab;
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+#container3 .box h1{
+    font-family: 'Roboto'; 
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #1E4681;
+    margin-bottom: 0.7rem;
+}
+#container3 .box p{
+    font-family: 'Roboto'; 
     font-style: normal;
     font-weight: 400;
     font-size: 1.1rem;
- }
- #container2 .features .feature1{
-    width: 5.7rem;
-    display: block;
-    margin-right: 10rem;
+    margin-left: 0rem;
+    width: 14.3rem;
 }
-#container2 .features .feature2{
-    width: 5.7rem;
-    display: block;
-    margin-right: 10rem;
+#container3 .box{
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 8rem;
 }
-#container2 .features .feature3{
-    width: 5.7rem;
+#container3 .box1, .box2, .box3{
     display: block;
-    margin-right: 10rem;
 }
-#container2 .features p{
-    width: 14rem;
+#container3 .title{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 3.4rem;
+}
+#container3 .unordered-list{
+    font-size: 1.5rem;
+    margin-top: -3rem;
+    width: 38rem;
+    height: 21rem;
+}
+
+#container4{
+    font-family: 'Roboto Slab';
+    margin-left: 7.5rem;
+    margin-top: 10rem;
+}
+#container4 .programs{
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#container4 .pr1{
+    height: 20.5rem;
+    width: 24.9rem;
+    border-radius: 1.8rem;
+    background-color:white;
+    box-shadow: 0.06rem 0.06rem 0.9rem rgba(0, 0, 0, 0.25);
+    margin-bottom: 1.25rem;
+    margin-right: 1.25rem;
+}
+#container4 p{
     height: 2.4rem;
+    width: 23rem;
+    font-weight: 25rem;
+    margin-left: 1.25rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+#container4 h1{
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+#container4 h2{
+    margin-left: 1rem;
 }
