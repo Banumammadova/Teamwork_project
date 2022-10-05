@@ -1,9 +1,10 @@
  body{
     background:  #FFFFFF;
-    width: 100%;
+    min-width: 1281px;
     overflow-x: hidden;
  }
  #container1{
+    min-width: 100%;
     margin-left: 7.5rem;
     margin-top: 1.3rem;
  }
@@ -23,23 +24,23 @@
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 400;
-     font-size: 1,25rem;
+     font-size: 1.25rem;
      line-height: 115%;
  }
  #container1 .text .p1{
      position: absolute;
-     left: 9.4rem;
-     top: 10.55rem;
+     left: 9.8rem;
+     top: 10.5rem;
  }
  #container1 .text .p2{
     position: absolute;
     left: 22rem;
-    top: 10.55rem;
+    top: 10.5rem;
  }
  #container1 .text .p3{
     position: absolute;
     left: 34rem;
-    top: 10.55rem;
+    top: 10.5rem;
  }
  #container1 h1{
      width: 39.2rem;
@@ -61,12 +62,6 @@
      height: 22.25rem;
      margin-left: 45rem;
  }
- #container1 .ellipse1{
-    width: 20rem;
-    height: 2.5rem;
-    margin-left: 46rem;
-    margin-top: -0.5rem;
- }
  #container1 .p-blue{
      width: 30.2rem;
      height: 13.7rem;
@@ -83,7 +78,7 @@
      margin-left: 0.3rem;
      margin-top: -0.1rem;
      font-family: 'Roboto Slab';
-     font-size: 1,5rem;
+     font-size: 1.5rem;
  }
  #container1 .p-blue h5{
      width:17.5rem ;
@@ -96,9 +91,17 @@
      text-align: right;
  }
  #container2{
+    min-width: 100%;
     margin-left: 7.5rem;
     margin-top: 1.3rem;
     color: #000000;
+ }
+ #container2 .ellipse2{
+    width: 22rem;
+    height: 3rem;
+    margin-left: -18rem;
+    margin-top: 17rem;
+    z-index: -1;
  }
  #container2 h1{
     margin-bottom:0rem;
@@ -177,6 +180,7 @@
     margin-top: 7rem;
  }
  #container3{
+    min-width: 100%;
     margin-left: 7.5rem;
     margin-top: 10rem;
     font-style: normal;
@@ -225,8 +229,8 @@
     width: 38rem;
     height: 21rem;
 }
-
 #container4{
+    min-width: 100%;
     font-family: 'Roboto Slab';
     margin-left: 7.5rem;
     margin-top: 10rem;
@@ -262,7 +266,7 @@
     margin-left: 1rem;
 }
 #container5{
-    width: 100%;
+    min-width: 100%;
     height: 50rem;
     padding-left: 7.5rem;
     padding-top: 3.5rem;
@@ -321,7 +325,7 @@
     height: 2.2rem;
 }
 #container6{
-    width: 100%;
+    min-width: 100%;
     margin: -3rem -8rem 0rem -0.5rem;
     height: 48.75rem;
     background-color: #9DC9C8;;
@@ -379,7 +383,7 @@
    font-size: 1.1rem;
 }
 #container7{
-    width: 100%;
+    min-width: 100%;
     height: 27rem;
     background: #000000;
     margin: -3rem -8rem -1rem -0.5rem;
@@ -407,11 +411,11 @@
     top: 14.2rem;
     width: 14.3rem;
     height: 2.5rem;
-   font-family: 'Roboto';
-   font-weight: 400;
-   font-size: 1.2rem;
-   line-height: 101.38%;
-   color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 101.38%;
+    color: #FFFFFF;
 }
 #container7 ul {
     position: relative;
@@ -425,7 +429,6 @@
     width: 16.8rem;
     height: 2.5rem;
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 1.5rem;
     line-height: 101.38%;
     color: #FFFFFF;
@@ -474,4 +477,27 @@
      }
      #container3 .box{
      } 
+}
+@media screen and (min-width: 992px) and (max-width: 1279px){
+    html{
+        font-size: 14px;
+     }
+#container3 .box{
+    margin-top: -0.5rem;
+}
+#container5 .box p{
+    width: 48.1rem;
+}
+#container5{
+    padding-right: 1.5rem;
+}
+#container7{
+    margin-left: -1rem;
+}
+#container7 ul {
+    left: 67rem;
+}
+#container7 .p1{
+    top: 11rem;
+}
 }
