@@ -1,11 +1,11 @@
  body{
     background:  #FFFFFF;
-    width: 100%;
+    min-width: 1281px;
     overflow-x: hidden;
  }
  #container1{
-    margin-left: 7.5rem;
-    margin-top: 1.3rem;
+    min-width: 100%;
+    margin: 1.3rem 0rem 8rem 7.5rem;
  }
  #container1 .logo{
      width: 7rem;
@@ -21,32 +21,32 @@
  }
  #container1 .text{
      font-family: 'Roboto';
-     font-style: normal;
      font-weight: 400;
      font-size: 1,25rem;
+     font-size: 1.25rem;
      line-height: 115%;
  }
  #container1 .text .p1{
      position: absolute;
-     left: 9.4rem;
-     top: 10.55rem;
+     left: 9.8rem;
+     top: 10.5rem;
  }
  #container1 .text .p2{
     position: absolute;
     left: 22rem;
-    top: 10.55rem;
+    top: 10.5rem;
  }
  #container1 .text .p3{
     position: absolute;
     left: 34rem;
-    top: 10.55rem;
+    top: 10.5rem;
  }
  #container1 h1{
      width: 39.2rem;
      height: 11.8rem;
      font-family: 'Roboto Slab';
      font-weight: 700;
-     font-size: 5rem;;
+     font-size: 5rem;
  }
   #container1 p{
      width: 25.8rem;
@@ -61,17 +61,10 @@
      height: 22.25rem;
      margin-left: 45rem;
  }
- #container1 .ellipse1{
-    width: 20rem;
-    height: 2.5rem;
-    margin-left: 46rem;
-    margin-top: -0.5rem;
- }
  #container1 .p-blue{
      width: 30.2rem;
      height: 13.7rem;
-     margin-left: 10rem;
-     margin-top: 7rem;
+     margin: 7rem 0rem 0rem 10rem;
      background: #1E4681;
      border-radius: 5px;
      color: #FFFFFF;
@@ -80,25 +73,29 @@
      width: 26.9rem;
      height: 7rem;
      padding: 1.5rem 1.6rem;
-     margin-left: 0.3rem;
-     margin-top: -0.1rem;
+     margin: -0.1rem 0rem 0rem 0.3rem;
      font-family: 'Roboto Slab';
-     font-size: 1,5rem;
+     font-size: 1.5rem;
  }
  #container1 .p-blue h5{
      width:17.5rem ;
      height: 2.8rem;
-     margin-left: 11rem;
-     margin-top: 20rem;
+     margin: 20rem 0rem 0rem 11rem;
      font-family: 'Roboto';
      font-weight: 400;
      font-size: 1.25rem;
      text-align: right;
  }
  #container2{
-    margin-left: 7.5rem;
-    margin-top: 1.3rem;
+    min-width: 100%;
+    margin: 1.3rem 0rem 0rem 7.5rem;
     color: #000000;
+ }
+ #container2 .ellipse2{
+    width: 22rem;
+    height: 3rem;
+    margin: 17rem 0rem 0rem -18rem;
+    z-index: -1;
  }
  #container2 h1{
     margin-bottom:0rem;
@@ -115,8 +112,7 @@
  #container2 .i2{
     width: 16.5rem;
     height: 16.5rem;
-    margin-left: 7rem;
-    margin-top: 2rem;
+    margin: 2rem 0rem 0rem 7rem;
  }
  #container2 .paragraph{
     display: block;
@@ -139,10 +135,7 @@
     justify-content: space-between;
     align-items: center;
     width: 9.3rem;
-    margin-left: 25rem;
-    margin-top: -10rem; 
-    margin-left: 8.25rem;
-    margin-top: -2.5rem;
+    margin: -2.5rem 0rem 0rem 8.25rem;
     font-family: 'Roboto';
  }
  #container2 .features .feature1{
@@ -177,8 +170,8 @@
     margin-top: 7rem;
  }
  #container3{
-    margin-left: 7.5rem;
-    margin-top: 10rem;
+    min-width: 100%;
+    margin: 10rem 0rem 0rem 7.5rem;
     font-style: normal;
     color: #000000;
  }
@@ -225,8 +218,8 @@
     width: 38rem;
     height: 21rem;
 }
-
 #container4{
+    min-width: 100%;
     font-family: 'Roboto Slab';
     margin-left: 7.5rem;
     margin-top: 10rem;
@@ -243,16 +236,13 @@
     border-radius: 1.8rem;
     background-color:white;
     box-shadow: 0.06rem 0.06rem 0.9rem rgba(0, 0, 0, 0.25);
-    margin-bottom: 1.25rem;
-    margin-right: 1.25rem;
+    margin: 0rem 1.25rem 1.25rem 0rem;
 }
 #container4 p{
     height: 2.4rem;
     width: 23rem;
     font-weight: 25rem;
-    margin-left: 1.25rem;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
+    margin: 0rem 0rem 0rem 1.25rem;
 }
 #container4 h1{
     font-size: 3rem;
@@ -262,13 +252,11 @@
     margin-left: 1rem;
 }
 #container5{
-    width: 100%;
+    min-width: 100%;
     height: 50rem;
-    padding-left: 7.5rem;
-    padding-top: 3.5rem;
-    margin-top: 6rem;
     background: #EFEFEF;
-    margin-left: -1rem;
+    margin: 6rem 0rem 0rem -1rem;
+    padding: 3.5rem 0rem 0rem 7.5rem;
  }
 #container5 h1{
     width: 61.8rem;
@@ -287,8 +275,7 @@
     margin-left: 0.5rem;
 }
 #container5 .box p{
-    padding-left: 3rem;
-    padding-top: 2.7rem;
+    padding: 2.7rem 0rem 0rem 3rem;
     width: 49rem;
     height: 12.6rem;
     font-family: 'Roboto';
@@ -299,8 +286,7 @@
 #container5 .box .img1{
     width: 13rem;
     height: 12rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
+    margin: 1rem 0rem 0rem 2rem;
 }
 #container5 .box h2{
     position: relative;
@@ -321,7 +307,7 @@
     height: 2.2rem;
 }
 #container6{
-    width: 100%;
+    min-width: 100%;
     margin: -3rem -8rem 0rem -0.5rem;
     height: 48.75rem;
     background-color: #9DC9C8;;
@@ -333,20 +319,16 @@
     font-size: 3.4rem;
     width: 56.7rem;
     height: 4.1rem;
-    padding-left: 7.5rem;
-    padding-top: 8rem;
+    padding: 8rem 0rem 0rem 7.5rem ;
 }
 #container6 .rubl{
-    margin-left: 7.5rem;
-    margin-top: 0rem;
+    margin: 0rem 0rem 0rem 7.5rem;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 5rem;
 }
 #container6 .word{
-    margin-left: 7.5rem;
-    margin-top: 7rem;
-    margin-bottom: 0rem;
+    margin: 7rem 0rem 0rem 7.5rem;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 1.5rem;
@@ -379,7 +361,7 @@
    font-size: 1.1rem;
 }
 #container7{
-    width: 100%;
+    min-width: 100%;
     height: 27rem;
     background: #000000;
     margin: -3rem -8rem -1rem -0.5rem;
@@ -407,11 +389,11 @@
     top: 14.2rem;
     width: 14.3rem;
     height: 2.5rem;
-   font-family: 'Roboto';
-   font-weight: 400;
-   font-size: 1.2rem;
-   line-height: 101.38%;
-   color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 101.38%;
+    color: #FFFFFF;
 }
 #container7 ul {
     position: relative;
@@ -425,7 +407,6 @@
     width: 16.8rem;
     height: 2.5rem;
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 1.5rem;
     line-height: 101.38%;
     color: #FFFFFF;
@@ -441,21 +422,21 @@
     #container1 .text .p1{
         position: absolute;
         left: 10.4rem;
-        top: 10.85rem;
+        top: 10.45rem;
     }
     #container1 .text .p2{
        position: absolute;
        left: 21rem;
-       top: 10.85rem;
+       top: 10.45rem;
     }
     #container1 .text .p3{
        position: absolute;
        left: 32rem;
-       top: 10.85rem;
+       top: 10.45rem;
     }
      #container1 .i1{
         position: relative;
-        top: 21rem;
+        top: 19rem;
         right: 23rem;
     }
     #container1 .ellipse1{
@@ -472,6 +453,140 @@
      #container2{
         padding-top: 17rem;
      }
+     #container2 .i3{
+        display: none;
+    }
+    #container2 .features p{
+        width: 10rem;
+        margin-bottom: 4rem;
+ }
+     #container2 .features h5{
+        width: 8rem;
+        font-size: 1.5rem;
+        margin-bottom: -1rem;
+     }
+    #container2 h1{
+        margin: 8rem 0rem 1rem 0rem;
+        font-size: 3.2rem;
+}
+    #container2 p{
+        width: 39rem;
+        font-size: 1.5rem;
+        margin-bottom: -15rem;     
+ }
+    #container2 .features{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 4rem 0rem 0rem 0rem;
+        width: 30rem;
+     }
+     #container2 .features .feature1{
+        width: 9rem;
+        margin: 0rem 5.6rem -4rem 0rem;
+ }
+    #container2 .features .feature2{
+        width: 9rem;
+        margin: 0rem 2.8rem -4rem 0rem;
+}
+    #container2 .features .feature3{
+       width: 9rem;
+       margin-right: 4rem;
+}
+     #container2 .p-i{
+        display: flex;
+        flex-direction: column;
+     }
+     #container2 .i2{
+        width: 17rem;
+        height: 16rem;
+        margin: 6rem 0rem 0rem 10rem;
+ }
+     #container3 h1{
+       margin: -4rem 0rem 2rem 0rem;
+     }
      #container3 .box{
-     } 
+        flex-direction: column;     
+        margin-bottom: 8rem;
+    }
+    #container3 .box *{
+       margin-top: 1rem;
+    }
+    #container3 .title{
+       margin-bottom: 7rem;
+    }
+    #container3 .unordered-list{
+        justify-content: center;
+        width: 21%;
+        margin-left: -3rem;
+    }
+    #container4{
+        margin:0;
+    }
+    #container4 h1{
+        margin-left: 7.5rem;
+    }
+    #container4 .programs{
+        flex-direction: column;
+        margin-left: 7%;
+    }
+    #container5 h1{
+        width: 40rem;
+        margin: 0rem 0rem 5rem 1rem;
+    }
+    #container5 .box{
+        width: 45rem;
+        height: 37rem;
+    }
+    #container5 .box p{
+        width: 38rem;
+        height: 12.6rem;
+        margin-bottom: 5rem;
+    }
+    #container5 .box .img2{
+        bottom: 15.6rem;
+    }
+    #container5{
+        height: 60rem;
+    }
+    #container6{
+        height: 60rem;
+    }
+    #container6 h1{
+        width: 30rem;
+        margin-bottom: 10rem;
+    }
+    #container7 ul {
+        left: 2.8rem;
+        top: 6rem;
+    }
+    #container7{
+        height: 40rem;
+    }
+    #container7 .p1{
+        left: 7.5rem;
+        top: 26.5rem;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1279px){
+    html{
+        font-size: 14px;
+     }
+#container3 .box{
+    margin-top: -0.5rem;
+}
+#container5 .box p{
+    width: 48.1rem;
+}
+#container5{
+    padding-right: 1.5rem;
+}
+#container7{
+    margin-left: -1rem;
+}
+#container7 ul {
+    left: 67rem;
+}
+#container7 .p1{
+    top: 11rem;
+}
 }
