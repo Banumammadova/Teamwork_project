@@ -1,17 +1,24 @@
  body{
     background:  #FFFFFF;
-    min-width: 1281px;
+    width: 100%;
     overflow-x: hidden;
  }
  #container1{
-    min-width: 100%;
-    margin: 1.3rem 0rem 8rem 7.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
  }
  #container1 .logo{
+    align-self: flex-start;
      width: 7rem;
+     margin-left: 10rem;
      height: 4.1rem;
  }
  #container1 .logos{
+    align-self: flex-start;
+    margin-left: 10rem;
+    align-self: flex-start;
      margin-top: 6.1rem;
  }
  #container1 .logos *{
@@ -20,27 +27,29 @@
      padding-right: 10.625rem;
  }
  #container1 .text{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+     margin-left: 2rem;
      font-family: 'Roboto';
      font-weight: 400;
      font-size: 1.25rem;
      line-height: 115%;
  }
  #container1 .text .p1{
-     position: absolute;
-     left: 9.8rem;
-     top: 10.5rem;
+    margin-top: -1.5rem;
+     margin-right:-23.5rem;
  }
  #container1 .text .p2{
-    position: absolute;
-    left: 22rem;
-    top: 10.5rem;
- }
+    margin-top: -1.5rem;
+    margin-right:-23.5rem;
+ } 
  #container1 .text .p3{
-    position: absolute;
-    left: 34rem;
-    top: 10.5rem;
- }
+    margin-top: -1.5rem;
+ } 
  #container1 h1{
+    align-self: flex-start;
+    margin-left: 10rem;
      width: 39.2rem;
      height: 11.8rem;
      font-family: 'Roboto Slab';
@@ -48,6 +57,8 @@
      font-size: 5rem;
  }
   #container1 p{
+    align-self:flex-start ;
+    margin-left: 10rem;
      width: 25.8rem;
      height: 3.8rem;
      font-family: 'Roboto';
@@ -56,11 +67,13 @@
      margin-bottom: -19rem;
  }
  #container1 .i1{
+    align-self: center;
+    margin-left: 70rem;
      width: 19rem;
      height: 22.25rem;
-     margin-left: 45rem;
  }
  #container1 .p-blue{
+    align-self: center;
      width: 30.2rem;
      height: 13.7rem;
      margin: 7rem 0rem 0rem 10rem;
@@ -86,8 +99,9 @@
      text-align: right;
  }
  #container2{
-    min-width: 100%;
-    margin: 1.3rem 0rem 0rem 7.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     color: #000000;
  }
  #container2 .ellipse2{
@@ -97,6 +111,8 @@
     z-index: -1;
  }
  #container2 h1{
+    align-self: flex-start;
+    margin-left: 10rem;
     margin-bottom:0rem;
     width: 22.8rem;
     height: 5.8rem;
@@ -105,10 +121,13 @@
     font-size: 3.4rem;
  }
  #container2 .p-i{
+    margin-left: 10rem;
+    align-self: flex-start;
     display: flex;
     flex-direction: row;
  }
  #container2 .i2{
+    align-self: flex-end;
     width: 16.5rem;
     height: 16.5rem;
     margin: 2rem 0rem 0rem 7rem;
@@ -126,6 +145,8 @@
  }
  #container2 .f-i{
     display: flex;
+    margin-left: 10rem;
+    align-self: flex-start;
     flex-direction: row;
  }
  #container2 .features{
@@ -169,18 +190,24 @@
     margin-top: 7rem;
  }
  #container3{
-    min-width: 100%;
-    margin: 10rem 0rem 0rem 7.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
     font-style: normal;
     color: #000000;
  }
 #container3 h1{
+    margin-left: 10rem;
+    align-self:flex-start ;
     font-family: Roboto Slab;
     font-size: 3.4rem;
     font-weight: 700;
     margin-bottom: 5rem;
 }
 #container3 .box h1{
+    align-items: flex-start;
+    margin-left: 0rem;
     font-family: 'Roboto'; 
     font-weight: 700;
     font-size: 1.1rem;
@@ -196,6 +223,8 @@
     width: 16rem;
 }
 #container3 .box{
+    margin-left: 10rem;
+    align-self: flex-start;
     width: 60rem;
     display: flex;
     flex-direction: row;
@@ -207,31 +236,39 @@
     display: block;
 }
 #container3 .title{
+    align-self: flex-start;
+    margin-left: 10rem;
     font-family: Roboto Slab;
     font-weight: 700;
     font-size: 3.4rem;
 }
 #container3 .unordered-list{
+    align-self: flex-start;
+    margin-left: 10rem;
     font-size: 1.5rem;
     margin-top: -3rem;
     width: 38rem;
     height: 21rem;
 }
 #container4{
-    min-width: 100%;
+    display: flex;
+    align-self: flex-start;
+    margin-left: 10rem;
+    flex-direction: column;
     font-family: 'Roboto Slab';
-    margin-left: 7.5rem;
-    margin-top: 10rem;
+    /* margin-left: 7.5rem;
+    margin-top: 10rem; */
 }
 #container4 .programs{
     font-family: 'Roboto';
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 80rem;
 }
 #container4 .pr1{
     height: 20.5rem;
-    width: 24.9rem;
+    width: 19.5rem;
     border-radius: 1.8rem;
     background-color:white;
     box-shadow: 0.06rem 0.06rem 0.9rem rgba(0, 0, 0, 0.25);
@@ -251,14 +288,19 @@
     margin-left: 1rem;
 }
 #container5{
-    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: -1rem;
+    margin-bottom: 20rem;
     height: 50rem;
     background: #EFEFEF;
-    margin: 6rem 0rem 0rem -1rem;
-    padding: 3.5rem 0rem 0rem 7.5rem;
+    margin: 0 -100%;
+    padding: 0 100%;
  }
 #container5 h1{
     width: 61.8rem;
+    margin-left: 10rem;
     height: 5.8rem;
     font-family: 'Roboto Slab';
     font-weight: 700;
@@ -266,12 +308,13 @@
     line-height: 101.38%;
 }
 #container5 .box{
+    align-self: flex-start;
+    margin: 0 19rem;
     width: 55rem;
     height: 31rem;
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    margin-left: 0.5rem;
 }
 #container5 .box p{
     padding: 2.7rem 0rem 0rem 3rem;
@@ -288,9 +331,9 @@
     margin: 1rem 0rem 0rem 2rem;
 }
 #container5 .box h2{
-    position: relative;
-    left: 17rem;
-    bottom: 11rem;
+    align-self: flex-end;
+    margin-left: 18rem;
+    margin-top: -10rem;
     width: 23rem;
     height: 59px;
     font-family: 'Roboto Slab';
@@ -299,15 +342,18 @@
     line-height: 101.38%;
 }
 #container5 .box .img2{
-    position: relative;
-    bottom: 12.3rem;
-    left: 17rem;
+    align-self: center;
+    margin-left: 18rem;
+    margin-top: -10rem;
     width: 2.2rem;
     height: 2.2rem;
 }
 #container6{
-    min-width: 100%;
-    margin: -3rem -8rem 0rem -0.5rem;
+    padding: 3.5rem 8rem 0rem 7.5rem;
+    display: flex;
+    margin: 0 -100%;
+    padding: 0 100%;
+    flex-direction: column;
     height: 48.75rem;
     background-color: #9DC9C8;;
 }
@@ -360,44 +406,44 @@
    font-size: 1.1rem;
 }
 #container7{
-    min-width: 100%;
+    margin: -3% -100%;
+    padding: 0 100%;
+    display: flex;
+    flex-direction: column;
     height: 27rem;
     background: #000000;
-    margin: -3rem -8rem -1rem -0.5rem;
 }
 #container7 .logo2{
-    position: relative;
+    margin-top: 3rem;
     width: 7.7rem;
     height: 4.7rem;
-    left: 7.5rem;
-    top: 3.5rem;
+    align-self: flex-start;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
 }
 #container7 .logos2{
-    position: relative;
-    left: 7.5rem;
-    top: 5.3rem;
+    align-self: flex-start;
+    margin-left: 10rem;
 }
 #container7 .logos2 *{
     width: 2.2rem;
     height: 2.2rem;
     padding-right: 1rem;
 }
-#container7 .p1{
-    position: relative;
-    left: 7.5rem;
-    top: 14.2rem;
+#container7 p{
+    align-self: flex-start;
+    margin-left: 10rem;
+    margin-top: 10rem;
     width: 14.3rem;
     height: 2.5rem;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: 101.38%;
     color: #FFFFFF;
 }
 #container7 ul {
-    position: relative;
-    left: 53rem;
-    bottom: 10rem;
+    margin-top: -20rem;
+    margin-left: 48rem;
 }
 #container7 ul li{
     padding-top: 1rem;
@@ -416,45 +462,11 @@
         font-size: 8px;
     }
     #container1 .logos *{
-        padding-right: 9.3rem;
+        padding-right: 8.6rem;
     }
-    #container1 .text .p1{
-        position: absolute;
-        left: 10.4rem;
-        top: 10.85rem;
- }
-    #container1 .text .p2{
-       position: absolute;
-       left: 21rem;
-       top: 10.85rem;
-    }
-    #container1 .text .p3{
-       position: absolute;
-       left: 32rem;
-       top: 10.45rem;
-    }
-     #container1 .i1{
-        position: relative;
-        top: 10.85rem;
-    }
-     #container1 .i1{
-        position: relative;
-        top: 21rem;
-        right: 23rem;
-    }
-    #container1 .ellipse1{
-        position: relative;
-        top: 20rem;
-        right: 23rem;
-        z-index: -1;
-    }
-     #container1 .p-blue{
-        position: relative;
-        top: 15rem;
-        right: 10rem;
-     }   
+
      #container2{
-        padding-top: 17rem;
+        padding-top: 7rem;
      }
      #container2 .i3{
         display: none;
@@ -469,7 +481,6 @@
         margin-bottom: -1rem;
      }
     #container2 h1{
-        margin: 8rem 0rem 1rem 0rem;
         font-size: 3.2rem;
 }
     #container2 p{
@@ -496,17 +507,17 @@
        margin-right: 4rem;
 }
      #container2 .p-i{
+        margin-left: 10rem;
+        align-self: flex-start;
         display: flex;
         flex-direction: column;
      }
      #container2 .i2{
         width: 17rem;
         height: 16rem;
-        margin: 6rem 0rem 0rem 10rem;
+        align-self: flex-start;
+       margin-left: 10rem;
  }
-     #container3 h1{
-       margin: -4rem 0rem 2rem 0rem;
-     }
      #container3 .box{
         flex-direction: column;     
         margin-bottom: 8rem;
@@ -517,24 +528,12 @@
     #container3 .title{
        margin-bottom: 7rem;
     }
-    #container3 .unordered-list{
-        justify-content: center;
-        width: 21%;
-        margin-left: -3rem;
-    }
-    #container4{
-        margin:0;
-    }
-    #container4 h1{
-        margin-left: 7.5rem;
-    }
     #container4 .programs{
         flex-direction: column;
-        margin-left: 7%;
     }
     #container5 h1{
         width: 40rem;
-        margin: 0rem 0rem 5rem 1rem;
+        margin: 5rem 0rem 5rem 3rem;
     }
     #container5 .box{
         width: 45rem;
@@ -550,46 +549,51 @@
     }
     #container5{
         height: 60rem;
+        margin: 0 -200%;
+        padding: 0 200%;
     }
     #container6{
         height: 60rem;
+        margin: 0 -200%;
+        padding: 0 200%;
     }
     #container6 h1{
         width: 30rem;
         margin-bottom: 10rem;
     }
-    #container7 ul {
-        left: 2.8rem;
-        top: 6rem;
-    }
     #container7{
         height: 40rem;
+        margin: 0 -200%;
+        padding: 0 200%;
     }
-    #container7 .p1{
-        left: 7.5rem;
-        top: 26.5rem;
-}
+    #container1 .text .p1{
+        margin-top: -1.5rem;
+         margin-right:-25.5rem;
+     }
+     #container1 .text .p2{
+        margin-top: -1.5rem;
+        margin-right:-25.5rem;
+     } 
+     #container1 .text .p3{
+        margin-top: -1.5rem;
+     } 
+     #container7 ul {
+        margin-top: -21rem;
+        margin-left: 5rem;
+     }
+     #container7 p{
+        margin-top: 23rem;
+    }
 }
 @media screen and (min-width: 992px) and (max-width: 1279px){
     html{
         font-size: 14px;
      }
-#container3 .box{
-    margin-top: -0.5rem;
-}
-#container5 .box p{
-    width: 48.1rem;
-}
-#container5{
-    padding-right: 1.5rem;
-}
-#container7{
-    margin-left: -1rem;
-}
-#container7 ul {
-    left: 67rem;
-}
-#container7 .p1{
-    top: 11rem;
-}
+     #container3 .unordered-list{
+        margin-left: 10rem;
+        font-size: 1.5rem;
+        margin-top: -3rem;
+        width: 50rem;
+        height: 21rem;
+    }
 }
