@@ -22,10 +22,6 @@
  #container1 .text{
      font-family: 'Roboto';
      font-weight: 400;
-<<<<<<< HEAD
-     font-size: 1,25rem;
-=======
->>>>>>> 193900943b8c72bacd269c74d4199494f23077f1
      font-size: 1.25rem;
      line-height: 115%;
  }
@@ -425,37 +421,25 @@
     #container1 .text .p1{
         position: absolute;
         left: 10.4rem;
-<<<<<<< HEAD
-        top: 10.45rem;
-=======
         top: 10.85rem;
->>>>>>> 193900943b8c72bacd269c74d4199494f23077f1
-    }
+ }
     #container1 .text .p2{
        position: absolute;
        left: 21rem;
-<<<<<<< HEAD
-       top: 10.45rem;
-=======
        top: 10.85rem;
->>>>>>> 193900943b8c72bacd269c74d4199494f23077f1
     }
     #container1 .text .p3{
        position: absolute;
        left: 32rem;
-<<<<<<< HEAD
        top: 10.45rem;
     }
      #container1 .i1{
         position: relative;
-        top: 19rem;
-=======
-       top: 10.85rem;
+        top: 10.85rem;
     }
      #container1 .i1{
         position: relative;
         top: 21rem;
->>>>>>> 193900943b8c72bacd269c74d4199494f23077f1
         right: 23rem;
     }
     #container1 .ellipse1{
@@ -472,7 +456,6 @@
      #container2{
         padding-top: 17rem;
      }
-<<<<<<< HEAD
      #container2 .i3{
         display: none;
     }
@@ -586,10 +569,6 @@
         left: 7.5rem;
         top: 26.5rem;
 }
-=======
-     #container3 .box{
-     } 
->>>>>>> 193900943b8c72bacd269c74d4199494f23077f1
 }
 @media screen and (min-width: 992px) and (max-width: 1279px){
     html{
@@ -613,8 +592,4 @@
 #container7 .p1{
     top: 11rem;
 }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 193900943b8c72bacd269c74d4199494f23077f1
